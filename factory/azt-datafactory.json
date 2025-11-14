@@ -1,0 +1,9 @@
+{
+	"name": "azt-datafactory",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "9649e381-d056-42ff-846c-0c16564f61c6",
+		"tenantId": "7274e0a4-147f-47c9-9328-e7b1bf3e8f42"
+	}
+}
