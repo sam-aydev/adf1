@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "azt-datafactory"
+		},
+		"aztdatalake_accountKey": {
+			"value": ""
+		},
+		"lssqldatab_password": {
+			"value": ""
+		},
+		"aztdatalake_properties_typeProperties_url": {
+			"value": "https://dafistorae.dfs.core.windows.net/"
+		},
+		"lsrestapi_properties_typeProperties_url": {
+			"value": "https://pokeapi.co/api/v2/pokemon"
+		},
+		"lssqldatab_properties_typeProperties_server": {
+			"value": "datserverdfro.database.windows.net"
+		},
+		"lssqldatab_properties_typeProperties_database": {
+			"value": "sqldnsazure"
+		},
+		"lssqldatab_properties_typeProperties_userName": {
+			"value": "samueladmin"
+		}
+	}
+}
